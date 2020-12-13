@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/GuidoFavara/Tinder-Front/preview.jpg" />
+  <img src="https://raw.githubusercontent.com/GuidoFavara/Tinder-Front/master/preview.jpg" />
 </div>
 
 #####
