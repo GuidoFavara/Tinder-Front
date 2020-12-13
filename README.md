@@ -6,7 +6,13 @@
 
 #####
 
+## 🚧 Under Construction
 
+TODO:
+Swipe animations
+Logins
+Messages
+Implement Back-End
 
 ## 🛠️ Technologies
 
