@@ -1,0 +1,79 @@
+[
+  {
+    "id": 0,
+    "name": "Karl",
+    "desc": "Developer",
+    "age": 26,
+    "image": "1.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 1,
+    "name": "Martin",
+    "desc": "Sistem administrator in US Army",
+    "age": 54,
+    "image": "2.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 2,
+    "name": "Kendall",
+    "desc": "English teacher",
+    "age": 35,
+    "image": "3.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 3,
+    "name": "Kim Dot Com",
+    "desc": "Retired Police Officer",
+    "age": 45,
+    "image": "4.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 4,
+    "name": "Jeff",
+    "desc": "Unemployed",
+    "age": 56,
+    "image": "5.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 5,
+    "name": "Gal",
+    "desc": "Actress",
+    "age": 35,
+    "image": "6.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  },
+  {
+    "id": 6,
+    "name": "Cardi",
+    "desc": "History Teacher",
+    "age": 28,
+    "image": "7.jpg",
+    "likedUsers": [],
+    "superLikedUsers": [],
+    "dislikedUsers": [],
+    "likedBy": []
+  }
+]
