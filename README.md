@@ -1,12 +1,12 @@
+<p align="center">A Tinder Frond-End clone that makes matches 🔥</p>
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/GuidoFavara/Tinder-Front/master/preview.jpg" />
 </div>
 
 #####
 
-<img src="./.github/web_homepage.png" />
 
-<p align="center">A Tinder clone that makes matches between developers 🔥</p>
 
 ## 🛠️ Technologies
 
