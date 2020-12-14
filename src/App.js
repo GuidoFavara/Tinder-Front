@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Header from './components/Header';
 import Person from './components/Person';
 import Lonely from './components/Lonely';
+import Chats from './components/Chat';
+import ChatScreen from './components/ChatScreen';
 import data from './data.json';
 
 const App = () => {
@@ -56,7 +59,20 @@ const App = () => {
 
   return (
     <div className="app">
-      <Header />
+       <Router>
+        <Switch>
+        <Route path="/chat/:person">
+        <ChatScreen />
+        </Route>
+          <Route path="/chat">
+            <Header backButton="/" />
+            <Chats />
+          </Route>
+          <Route path="/profile">
+
+          </Route>
+          <Route path="/">
+            <Header />
       {people[1] ? (
         <Person
           key={people[1].id}
@@ -71,6 +87,10 @@ const App = () => {
           superLikedUsers={superLikedUsers}
         />
       )}
+       </Route>
+        </Switch>
+
+      </Router>
     </div>
   );
 };
