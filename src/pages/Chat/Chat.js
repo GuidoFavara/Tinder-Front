@@ -6,13 +6,13 @@ import Avatar from '@material-ui/core/Avatar';
 const Chat = ({ name, message, profilePic, timestamp }) => {
     return (
         <Link to={`/chat/${name}`}>
-            <div className="Chat__Box">
-                <Avatar className="User__Profile__Picture" alt={name} src={profilePic} />
-                <div className="Chat__Inbox">
+            <div className="chat">
+                <Avatar className="chat__image" alt={name} src={profilePic} />
+                <div className="chat__inbox">
                     <h2>{name}</h2>
                     <p>{message}</p>
                 </div>
-                <p className="Chat__Timestamp">{timestamp}</p>
+                <p className="chat__timestamp">{timestamp}</p>
 
             </div>
         </Link>
