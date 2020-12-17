@@ -12,11 +12,13 @@
 
 TODO:
 
-Swipe animations
+Better File Structure. Done!
+
+Swipe animations. On Process.
 
 Logins
 
-Messages
+Messages/Chat. Almost Done.
 
 Implement Back-End
 

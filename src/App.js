@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import './App.css';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import Header from './components/Header';
+import Header from './layout/Header/Header';
 import Person from './components/Person';
 import Lonely from './components/Lonely';
-import Chats from './components/Chat';
-import ChatScreen from './components/ChatScreen';
+import Chats from './pages/Chat/Chats';
+import ChatScreen from './pages/Chat/ChatScreen';
 import data from './data.json';
+import './App.css';
 
 const App = () => {
   const [people, setPeople] = useState(data);
@@ -62,6 +62,7 @@ const App = () => {
        <Router>
         <Switch>
         <Route path="/chat/:person">
+        <Header backButton ="/chat" />
         <ChatScreen />
         </Route>
           <Route path="/chat">
