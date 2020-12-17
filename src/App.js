@@ -69,9 +69,6 @@ const App = () => {
             <Header backButton="/" />
             <Chats />
           </Route>
-          <Route path="/profile">
-
-          </Route>
           <Route path="/">
             <Header />
       {people[1] ? (

@@ -48,25 +48,25 @@ header button img {
 	width: 100%;
 }
 
-header .fl {
-	float: left;
+header .fl { /* Header completo */
+	float: right;
 	width: 33%;
 }
 
-header .fl:first-child {
+header .fl:first-child { /* Icono Usuario */
 	text-align: left;
 }
 
-header .fl:last-child {
+header .fl:last-child {  /* Icono Mensajes */
 	text-align: right;
 }
 
-.person .person-photo {
+.person .person-photo { /*Nombre y ocupacion posicion */
 	overflow: hidden;
 	
 }
 
-.person .person-description {
+.person .person-description {  /* Descripcion formato */
 	text-align: left;
 	padding: 20px;
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
@@ -75,20 +75,20 @@ header .fl:last-child {
 
 }
 
-.person .person-name-age {
+.person .person-name-age {  /* Nombre-Edad */
 	font-weight: bold;
 	font-size: 30px;
 	margin-bottom: 10px;
 	margin-top: 0;
 }
 
-.person .person-info {
+.person .person-info { /* Ocupacion */
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 20px;
 }
 
-.person img {
+.person img {   
 	width: 500px;
 	height: 700px;
 	display: block;
@@ -163,7 +163,7 @@ header .fl:last-child {
 	object-position: 50% 50%;
 }
 
-/* copy & paste CSS */
+/* Robado de Google */
 .pulse {
   margin: auto;
   width: 200px;

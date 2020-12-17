@@ -6,18 +6,24 @@ const ChatScreen = () => {
     const [input, setInput] = useState('')
     const [message, setMessage] = useState([
         {
-            name: 'Ellen',
-            Image: '...',
-            message: 'hii!',
+            name:'Obama',
+            message:'Hola como estas? :)',
+            image:"https://www.wallpapertip.com/wmimgs/43-435104_portrait-barack-obama-face.jpg",
         },
         {
-            name: 'Ellen',
-            Image: '...',
-            message: 'hii 2!',
+            name:'Trump',
+            message:'Ops i did it again',
+            image:"https://media.architecturaldigest.com/photos/579933cdb6c434ab487bc12c/16:9/w_2560%2Cc_limit/trump-1985-apartment-AD_06.jpg",
         },
         {
-            message: 'hii too!',
-        }
+            name:'Bush',
+            message:'Entonces nos vemos mañana',
+            image:"https://upload.wikimedia.org/wikipedia/commons/d/d4/George-W-Bush.jpeg",
+        },
+        {
+            message: 'hola como estas?',
+        },
+
     ])
     const handleSend = e => {
         e.preventDefault();
