@@ -10,17 +10,15 @@
 
 TODO:
 
-Swipe animations
+Better File Structure. Done!
+
+Swipe animations. On Process.
 
 Logins
 
-Messages * On process *
+Messages/Chat. Almost Done.
 
 Implement Back-End
-
-Better file structure * On process *
-
-Responsive * On process (almost done) *
 
 
 ## 🛠️ Technologies
@@ -28,8 +26,6 @@ Responsive * On process (almost done) *
 <ul>
   <li><a href="https://nodejs.org/en/">Node.js</a></li>
   <li><a href="https://reactjs.org/">React</a></li>
-  <li><a href="https://expressjs.com/">Express</a></li>
-  <li><a href="https://www.webpack.com.ar/">WebPack</a></li>
 
 </ul>
 
@@ -63,3 +59,4 @@ The application will pop-up in the browser on http://localhost:3000
 
 🚧 Under construction 🚧
 
+## ⚖️ License
