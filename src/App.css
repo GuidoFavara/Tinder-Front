@@ -21,45 +21,7 @@ ol, ul {
 	margin: auto;
 }
 
-header {
-	background-color: white;
-	overflow: hidden;
-	display: flex;
-}
 
-header {
-	background-color: white;
-	overflow: hidden;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 10px 5px;
-	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
-}
-
-header button {
-	background-color: transparent;
-	border: 0;
-	width: 50px;
-	cursor: pointer;
-}
-
-header button img {
-	width: 100%;
-}
-
-header .fl { /* Header completo */
-	float: right;
-	width: 33%;
-}
-
-header .fl:first-child { /* Icono Usuario */
-	text-align: left;
-}
-
-header .fl:last-child {  /* Icono Mensajes */
-	text-align: right;
-}
 
 .person .person-photo { /*Nombre y ocupacion posicion */
 	overflow: hidden;

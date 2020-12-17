@@ -8,7 +8,7 @@ import ChatScreen from './pages/Chat/ChatScreen';
 import data from './data.json';
 import './App.css';
 
-const App = () => {
+function App () {
   const [people, setPeople] = useState(data);
   const [likedUsers, setLikedUsers] = useState([]);
   const [superLikedUsers, setSuperLikedUsers] = useState([]);
