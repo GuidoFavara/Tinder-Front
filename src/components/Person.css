@@ -1,0 +1,35 @@
+.person .person-photo { /*Nombre y ocupacion posicion */
+	overflow: hidden;
+	
+}
+
+.person .person-description {  /* Descripcion formato */
+	text-align: left;
+	padding: 20px;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+	border-radius: 8px;
+	background-color: white;
+
+}
+
+.person .person-name-age {  /* Nombre-Edad */
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.person .person-info { /* Ocupacion */
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+.person img {   
+	width: 500px;
+	height: 700px;
+	display: block;
+	object-fit: cover;
+	border-radius: 25px;
+	background-color: white;
+}

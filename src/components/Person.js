@@ -1,5 +1,6 @@
 import React from 'react';
 import Actions from '../layout/Footer/Footer';
+import './Person.css'
 
 const Person = ({ person, modifySuperficialChoices }) => {
   const { name, desc, age, image } = person;

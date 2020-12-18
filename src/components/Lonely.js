@@ -20,7 +20,7 @@ const Lonely = ({ activeUserImage, likedUsers, superLikedUsers }) => (
         <LikedPerson key={item.id} person={item} />
       ))}
 
-      <p>{superLikedUsers.length > 0 ? 'People you super liked!' : ''}</p>
+      <p>{superLikedUsers.length > 0 ? 'People you Super Liked!' : ''}</p>
 
       {superLikedUsers.map(item => (
         <LikedPerson key={item.id} person={item} />
