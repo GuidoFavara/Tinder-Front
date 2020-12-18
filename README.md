@@ -18,7 +18,7 @@ Logins
 
 Messages/Chat. Almost Done.
 
-Implement Back-End
+Implement Back-End, On Process with FireBase
 
 
 ## 🛠️ Technologies
